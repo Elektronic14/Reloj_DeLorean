@@ -135,9 +135,6 @@ else if(now.hour()==12)
    digitalWrite(greenAM,0);
   digitalWrite(greenPM,1);}
 
-//Descomentar en el horario de invierno
-//else if(now.hour()==00) 
-// {Hour=23;} 
 
 else{
   Hour=now.hour();
